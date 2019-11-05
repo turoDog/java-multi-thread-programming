@@ -14,7 +14,8 @@ public class Run {
         System.out.println("begin ==" + mythread.isAlive());
         mythread.start();
         // 主线程休眠
-        //Thread.sleep(1000);
+        Thread.sleep(1000);
+        // mythread 已经执行完，所以 isAlive() 为 false
         System.out.println("end ==" + mythread.isAlive());
     }
 
