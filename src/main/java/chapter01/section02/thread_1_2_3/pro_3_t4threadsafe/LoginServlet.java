@@ -12,8 +12,8 @@ public class LoginServlet {
     private static String usernameRef;
     private static String passwordRef;
 
-    public static void doPost(String username, String password) {
-        //synchronized public static void doPost(String username, String password) {
+    //public static void doPost(String username, String password) {
+    synchronized public static void doPost(String username, String password) {
         try {
             usernameRef = username;
             if (username.equals("a")) {
