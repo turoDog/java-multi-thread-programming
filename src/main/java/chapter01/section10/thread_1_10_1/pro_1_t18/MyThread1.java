@@ -1,4 +1,4 @@
-package chapter01.section10.pro_1_t18;
+package chapter01.section10.thread_1_10_1.pro_1_t18;
 
 /**
  * Project Name:java-multi-thread-programming <br/>
