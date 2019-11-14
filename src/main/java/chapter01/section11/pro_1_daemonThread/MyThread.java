@@ -1,4 +1,4 @@
-package chapter01.section11.project_1_daemonThread;
+package chapter01.section11.pro_1_daemonThread;
 
 /**
  * Project Name:java-multi-thread-programming <br/>
