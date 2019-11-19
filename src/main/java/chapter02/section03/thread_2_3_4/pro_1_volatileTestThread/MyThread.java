@@ -9,7 +9,7 @@ package chapter02.section03.thread_2_3_4.pro_1_volatileTestThread;
  */
 public class MyThread extends Thread{
 
-    volatile public static int count;
+    public static int count;
 
     synchronized private static void addCount() {
         for (int i = 0; i < 100; i++) {
