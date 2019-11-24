@@ -1,4 +1,4 @@
-package chapter03.section03.pro_1_ThreadLocal11;
+package chapter03.section03.thread_3_3_1.pro_1_ThreadLocal_1;
 
 /**
  * Project Name:java-multi-thread-programming <br/>
