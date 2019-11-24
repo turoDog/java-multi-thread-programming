@@ -16,4 +16,9 @@ public class InheritableThreadLocalExt extends InheritableThreadLocal{
         return new Date().getTime();
     }
 
+    @Override
+    protected Object childValue(Object parentValue) {
+        return parentValue + " 我在子线程加的~!";
+    }
+
 }
