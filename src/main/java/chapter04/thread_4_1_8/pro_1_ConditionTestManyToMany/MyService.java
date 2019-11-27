@@ -25,8 +25,8 @@ public class MyService {
             }
             System.out.println("打印★");
             hasValue = true;
-            condition.signal();
-            //condition.signalAll();
+            //condition.signal();
+            condition.signalAll();
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
@@ -43,8 +43,8 @@ public class MyService {
             }
             System.out.println("打印☆");
             hasValue = false;
-            condition.signal();
-            //condition.signalAll();
+            //condition.signal();
+            condition.signalAll();
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
