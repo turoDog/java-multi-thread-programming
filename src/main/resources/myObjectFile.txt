@@ -1,0 +1,1 @@
+chapter06.section04.pro_1_singleton_7_1.MyObject
