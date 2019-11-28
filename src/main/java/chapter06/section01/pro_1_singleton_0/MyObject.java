@@ -1,4 +1,4 @@
-package chapter06.pro_1_singleton_0;
+package chapter06.section01.pro_1_singleton_0;
 
 /**
  * Project Name:java-multi-thread-programming <br/>
